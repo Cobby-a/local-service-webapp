@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    /* background-color: #ffffff; */
+
+}
+
+.logo{
+    width: 180px;
+    height: 40px;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+.servicesbtn,
+.login,
+.signup{
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+.servicesbtn{
+    font-size: 1.2em;
+}
+.servicesbtn,
+.login{
+    color: #ffffff;
+}
+.login{
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+.signup{
+    background: #8758FF;
+    color: #fff;
+    border: 0;
+    padding: 12px;
+    border-radius: 4px;
+}
+.dropDownProfile{
+    position: absolute;
+    top: 4.5 rem;
+    right: 17rem;
+    width: 140px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #1D2254;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.dropDownProfile li {
+    padding: 12px;
+    cursor: pointer;
+}
+.dropDownProfile li:hover{
+    background-color: #d9d9d9;
+}
+.dropDownProfile ul {
+    list-style: none;
+}
+.dropDownProfile::before{
+     content: '';
+     position: absolute;
+     top: -0.7rem;
+     right: 1.1rem;
+     width: 20px;
+     height: 20px;
+     transform: rotate(45deg);
+     background-color: #ffffff;
+     border-left: 1px solid gray;
+     border-top: 1px solid gray;
+     
+}

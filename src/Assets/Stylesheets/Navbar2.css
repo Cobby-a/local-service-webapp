@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+    /* background-color: #ffffff; */
+
+}
+
+.logo{
+    width: 180px;
+    height: 40px;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+.yourProjects,
+.hibtn{
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: auto 10px;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+.hibtn{
+    font-size: 1em;
+    background: #8758FF;
+    color: #fff;
+    border: 0;
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+.yourProjects{
+    font-family: "Lexend";
+    font-size: 16px;
+    color: #1D2254;
+}
+.signup{
+    background: #8758FF;
+    color: #fff;
+    border: 0;
+    padding: 12px;
+    border-radius: 4px;
+}
+.dropDownProfile1{
+    position: absolute;
+    top: 4.5 rem;
+    right: 4rem;
+    width: 140px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #1D2254;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.dropDownProfile1 li {
+    padding: 12px;
+    cursor: pointer;
+}
+.dropDownProfile1 li:hover{
+    background-color: #d9d9d9;
+}
+.dropDownProfile1 ul {
+    list-style: none;
+}
+.dropDownProfile1::before{
+     content: '';
+     position: absolute;
+     top: -0.7rem;
+     right: 1.1rem;
+     width: 20px;
+     height: 20px;
+     transform: rotate(45deg);
+     background-color: #ffffff;
+     border-left: 1px solid gray;
+     border-top: 1px solid gray;
+     
+}

@@ -1,0 +1,33 @@
+.mainhome{
+    width: 100%;
+    height: 400px;
+    background-color: #5CB8E4;
+}
+.mainhomesub{
+    height: 100%;
+    background-color: #1D2254;
+    width: 70%;
+    border-radius: 0 0 200px 0;
+}
+.mainhomesub h1{
+    color: #FFF;
+    font-style: normal;
+    font-size: 56px;
+    line-height: normal;
+    font-weight: 700;
+    font-family: "Lexend";
+    padding-top: 48px;
+    margin-left: 120px;
+}
+.mainhomesub p{
+    padding-top: 48px;
+    margin-left: 120px;
+}
+.mainhome h2{
+    margin: 56px auto auto auto;
+    position: relative;
+    text-align: center;
+    font-family: Georgia;
+    font-weight: 600;
+    color: #1D2254;
+}
